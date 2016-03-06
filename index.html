@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en-GB">
+  <body>
+
+{% if site.github.public_repositories %}
+  <ul class="list  list--repos">
+    {% for repo in site.github.public_repositories %}
+      <li class="item  item--repo">
+        <a href="{{ repo.homepage }}">{{ repo.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+  </body>
+</html>
