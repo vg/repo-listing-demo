@@ -1,6 +1,3 @@
-# repo-listing-demo
-A demo showing the usage of GitHub Pages to list public repos, to coincide with my tuts+ tutorial
-
 Repo Listing Demo
 ===============
 
