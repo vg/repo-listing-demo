@@ -4,12 +4,16 @@
 <!doctype html>
 <html lang="en-GB">
   <body>
+    {% include icons.svg %}
 
     <ul class="list  list--repos">
       {% for repo in site.github.public_repositories %}
         {% if repo.fork != true %}
           <li class="item  item--repo">
-            <a href="{{ repo.homepage }}">{{ repo.name }}</a> ({{ repo.language }})
+            <a href="{{ repo.homepage }}">{{ repo.name }}</a>
+            <svg class="icon  icon--network">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{ repo.language }}"></use>
+            </svg>
           </li>
         {% endif %}
       {% endfor %}
