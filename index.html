@@ -11,8 +11,8 @@
         {% if repo.fork != true %}
           <li class="item  item--repo">
             <a href="{{ repo.homepage }}">{{ repo.name }}</a>
-            <svg class="icon  icon--network">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{ repo.language }}"></use>
+            <svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{ repo.language | downcase }}"></use>
             </svg>
           </li>
         {% endif %}
