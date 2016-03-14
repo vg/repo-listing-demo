@@ -9,7 +9,7 @@
       {% for repo in site.github.public_repositories %}
         {% if repo.fork != true %}
           <li class="item  item--repo">
-            <a href="{{ repo.homepage }}">{{ repo.name }}</a>
+            <a href="{{ repo.homepage }}">{{ repo.name }}</a> ({{ repo.language }})
           </li>
         {% endif %}
       {% endfor %}
