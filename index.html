@@ -13,7 +13,7 @@ description: A Demo of an Open Source Portfolio Using GitHub Pages
     {% include icons.svg %}
     <header class="header">
       <h1>{{ page.title }}</h1>
-      <h2>{{ page.title }}</h2>
+      <h2>{{ page.description }}</h2>
     </header>
 
     <ul class="portfolio">
@@ -24,7 +24,7 @@ description: A Demo of an Open Source Portfolio Using GitHub Pages
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{ repo.language | downcase }}"></use>
             </svg>
             <a href="{{ repo.homepage }}">{{ repo.name }}</a>
-            <p>{{ repo.project_tagline }}</p>
+            <p>{{ repo.description }}</p>
           </li>
         {% endif %}
       {% endfor %}
