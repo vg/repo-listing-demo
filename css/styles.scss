@@ -40,10 +40,11 @@ body {
         border-right: 0;
     }
     a {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
+      text-decoration: none;
     }
     &--html {
-        background: fade-out(#F16529, 0.75);
+        background: fade-out(#F16529, 0.9);
         .icon {
             fill: #F16529;
         }
@@ -52,7 +53,7 @@ body {
         }
     }
     &--css {
-        background: fade-out(#29A9DF, 0.8);
+        background: fade-out(#29A9DF, 0.9);
         .icon {
             fill: #29A9DF;
         }
@@ -61,7 +62,7 @@ body {
         }
     }
     &--js {
-        background: fade-out(#F8DC3D, 0.8);
+        background: fade-out(#F8DC3D, 0.9);
         .icon {
             fill: #F8DC3D;
         }
@@ -70,7 +71,7 @@ body {
         }
     }
     &--php {
-        background: fade-out(#617CBE, 0.8);
+        background: fade-out(#617CBE, 0.9);
         .icon {
             fill: #617CBE;
         }
@@ -79,7 +80,7 @@ body {
         }
     }
     &--liquid {
-        background: fade-out(#95BE46, 0.8);
+        background: fade-out(#95BE46, 0.9);
         .icon {
             fill: #95BE46;
         }
