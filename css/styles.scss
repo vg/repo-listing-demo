@@ -47,29 +47,44 @@ body {
         .icon {
             fill: #F16529;
         }
+        a {
+            color: #F16529;
+        }
     }
     &--css {
-        background: fade-out(#29A9DF, 0.75);
+        background: fade-out(#29A9DF, 0.8);
         .icon {
             fill: #29A9DF;
         }
+        a {
+            color: #29A9DF;
+        }
     }
     &--js {
-        background: fade-out(#F8DC3D, 0.75);
+        background: fade-out(#F8DC3D, 0.8);
         .icon {
             fill: #F8DC3D;
         }
+            a {
+            color: #F8DC3D;
+        }
     }
     &--php {
-        background: fade-out(#617CBE, 0.75);
+        background: fade-out(#617CBE, 0.8);
         .icon {
             fill: #617CBE;
         }
+        a {
+            color: #617CBE;
+        }
     }
     &--liquid {
-        background: fade-out(#95BE46, 0.75);
+        background: fade-out(#95BE46, 0.8);
         .icon {
             fill: #95BE46;
+        }
+        a {
+            color: #95BE46;
         }
     }
 }
