@@ -24,7 +24,7 @@ description: A Demo of an Open Source Portfolio Using GitHub Pages
             <svg class="icon">
               <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{ repo.language | downcase }}"></use>
             </svg>
-            <a href="{{ repo.homepage }}">{{ repo.name }}</a>
+            <h3><a href="{{ repo.homepage }}">{{ repo.name }}</a></h3>
             <p>{{ repo.description }}</p>
           </li>
         {% endif %}
