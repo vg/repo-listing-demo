@@ -49,6 +49,14 @@ h3 {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
+    &:hover {
+        .repo {
+            opacity: 0.5;
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
 }
 
 .repo {
@@ -59,6 +67,7 @@ h3 {
     border-top: 0;
     border-left: 0;
     background: #f4f4f4;
+    transition: .2s;
     &:nth-of-type(4n) {
         border-right: 0;
     }
