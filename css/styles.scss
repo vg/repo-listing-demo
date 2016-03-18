@@ -7,6 +7,8 @@ body {
     font-size: 15px;
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #333333;
 }
 
 * {
@@ -16,16 +18,20 @@ body {
 h1 {
     font-size: 2rem;
     line-height: 3rem;
+    font-weight: 700;
 }
 
 h2 {
     font-size: 1.4rem;
     line-height: 2.8rem;
+    font-weight: 400;
 }
 
 h3 {
     font-size: 1.15rem;
     line-height: 2.3rem;
+    display: inline;
+    font-weight: 700;
 }
 
 .header {
@@ -41,6 +47,15 @@ h3 {
     height: 24px;
     margin-right: 10px;
     vertical-align: middle;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .portfolio {
@@ -79,6 +94,9 @@ h3 {
         background: fade-out(#F16529, 0.9);
         .icon {
             fill: #F16529;
+            &:after {
+                background: #F16529;
+            }
         }
         a {
             color: #F16529;
@@ -88,6 +106,9 @@ h3 {
         background: fade-out(#29A9DF, 0.9);
         .icon {
             fill: #29A9DF;
+            &:after {
+                background: #29A9DF;
+            }
         }
         a {
             color: #29A9DF;
@@ -97,8 +118,11 @@ h3 {
         background: fade-out(#F8DC3D, 0.9);
         .icon {
             fill: #F8DC3D;
+            &:after {
+                background: #F8DC3D;
+            }
         }
-            a {
+        a {
             color: #F8DC3D;
         }
     }
@@ -106,6 +130,9 @@ h3 {
         background: fade-out(#617CBE, 0.9);
         .icon {
             fill: #617CBE;
+            &:after {
+                background: #617CBE;
+            }
         }
         a {
             color: #617CBE;
@@ -115,6 +142,9 @@ h3 {
         background: fade-out(#95BE46, 0.9);
         .icon {
             fill: #95BE46;
+            &:after {
+                background: #95BE46;
+            }
         }
         a {
             color: #95BE46;
