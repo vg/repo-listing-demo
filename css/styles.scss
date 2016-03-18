@@ -62,9 +62,11 @@ h3 {
 .portfolio {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
+    max-width: 1200px;
     &:hover {
         .repo {
             opacity: 0.5;
@@ -77,14 +79,14 @@ h3 {
 
 .repo {
     display: block;
-    width: 25%;
+    width: 33.3%;
     padding: 20px 25px;
-    border: 1px solid white;
+    border: 20px solid white;
     border-top: 0;
     border-left: 0;
     background: #f4f4f4;
     transition: .2s;
-    &:nth-of-type(4n) {
+    &:nth-of-type(3n) {
         border-right: 0;
     }
     a {
