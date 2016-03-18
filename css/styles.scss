@@ -77,7 +77,7 @@ h3 {
 .repo {
     display: block;
     width: 25%;
-    padding: 20px;
+    padding: 20px 25px;
     border: 1px solid white;
     border-top: 0;
     border-left: 0;
@@ -94,9 +94,6 @@ h3 {
         background: fade-out(#F16529, 0.9);
         .icon {
             fill: #F16529;
-            &:after {
-                background: #F16529;
-            }
         }
         a {
             color: #F16529;
@@ -106,21 +103,15 @@ h3 {
         background: fade-out(#29A9DF, 0.9);
         .icon {
             fill: #29A9DF;
-            &:after {
-                background: #29A9DF;
-            }
         }
         a {
             color: #29A9DF;
         }
     }
-    &--js {
+    &--javascript {
         background: fade-out(#F8DC3D, 0.9);
         .icon {
             fill: #F8DC3D;
-            &:after {
-                background: #F8DC3D;
-            }
         }
         a {
             color: #F8DC3D;
@@ -130,9 +121,6 @@ h3 {
         background: fade-out(#617CBE, 0.9);
         .icon {
             fill: #617CBE;
-            &:after {
-                background: #617CBE;
-            }
         }
         a {
             color: #617CBE;
@@ -142,9 +130,6 @@ h3 {
         background: fade-out(#95BE46, 0.9);
         .icon {
             fill: #95BE46;
-            &:after {
-                background: #95BE46;
-            }
         }
         a {
             color: #95BE46;
