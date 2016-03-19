@@ -46,6 +46,16 @@ h3 {
     justify-content: center;
 }
 
+.button {
+    border: 1px solid;
+    padding: 4px 9px 5px;
+    border-radius: 3px;
+    transition: .2s;
+    &:hover {
+        background: fade-out(#fff, 0.5);
+    }
+}
+
 .icon {
     width: 24px;
     height: 24px;
