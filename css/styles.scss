@@ -60,6 +60,13 @@ h3 {
         width: 100%;
         height: 100%;
     }
+    &--sub {
+        fill: #333;
+        width: 16px;
+        height: 16px;
+        margin: 0;
+        vertical-align: sub;
+    }
 }
 
 .portfolio {
@@ -141,5 +148,13 @@ h3 {
         a {
             color: #95BE46;
         }
+    }
+}
+
+.details {
+    font-size: .8rem;
+    span,
+    a {
+        margin-right: 8px;
     }
 }
