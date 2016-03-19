@@ -27,7 +27,7 @@ description: A Demo of an Open Source Portfolio Using GitHub Pages
             </svg>
             <h3><a href="{{ repo.homepage }}">{{ repo.name }}</a></h3>
             <p>{{ repo.description }}</p>
-            <a href="{{ repo.html_url }}/archive/{{ repo.default_branch }}.zip">Download</a>
+            <a href="{{ repo.html_url }}/archive/{{ repo.default_branch }}.zip">Download</a> | <span>&#9733; {{ repo.stargazers_count }}</span>
           </li>
         {% endif %}
       {% endfor %}
