@@ -105,6 +105,9 @@ h3 {
     padding: 30px 30px;
     background: #f4f4f4;
     transition: .2s;
+    @media (max-width: 960px) {
+        width: 49%;
+    }
     @media (max-width: 600px) {
         width: 100%;
         margin: 0 0 20px;
