@@ -113,10 +113,14 @@ h3 {
         color: #4078c0;
         text-decoration: none;
     }
+    > .icon {
+        background: #4078c0;
+    }
     &--html {
         background: fade-out(#F16529, 0.9);
         .icon {
             fill: #F16529;
+            background: transparent;
         }
         a {
             color: #F16529;
@@ -126,6 +130,7 @@ h3 {
         background: fade-out(#29A9DF, 0.9);
         .icon {
             fill: #29A9DF;
+            background: transparent;
         }
         a {
             color: #29A9DF;
@@ -135,6 +140,7 @@ h3 {
         background: fade-out(#E8C917, 0.9);
         .icon {
             fill: #E8C917;
+            background: transparent;
         }
         a {
             color: #E8C917;
@@ -144,6 +150,7 @@ h3 {
         background: fade-out(#617CBE, 0.9);
         .icon {
             fill: #617CBE;
+            background: transparent;
         }
         a {
             color: #617CBE;
@@ -153,14 +160,10 @@ h3 {
         background: fade-out(#95BE46, 0.9);
         .icon {
             fill: #95BE46;
+            background: transparent;
         }
         a {
             color: #95BE46;
-        }
-    }
-    &:not(.repo--html,.repo--css,.repo--javascript,.repo--php,.repo--liquid) {
-        .icon:first-of-type {
-            background: #4078c0;
         }
     }
 }
