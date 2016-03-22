@@ -18,7 +18,7 @@ description: A Demo of an Open Source Portfolio Using GitHub Pages
     </header>
 
     <ul class="portfolio">
-      {% for repo in site.github.public_repositories limit:3 %}
+      {% for repo in site.github.public_repositories limit:25 %}
         {% if repo.fork != true %}
           <li class="repo  repo--{{ repo.language | downcase }}">
             <svg class="icon">
